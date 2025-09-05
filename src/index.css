@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+.btn{
+    @apply rounded-full py-3 px-8 text-white font-semibold hover:opacity-75 md:w-auto w-full ;
+}
+/* .shadow{
+    box-shadow: 10px 20px 20px 20px rgba(0, 0, 0, 0.31);
+} */
+.headFont{
+    @apply md:text-[2.1rem] text-[1.6rem] font-bold text-center text-Gray700 pb-4;
+
+}
+.head2Font{
+    @apply text-[1.5rem] font-bold text-Gray700;
+}
+p{
+    @apply text-Gray500;
+}
+i{
+    @apply text-Gray700 text-2xl;
+
+}
+.hover{
+    transition: all 0.3s ease;
+}
+.hover:hover{
+    color: hsl(171, 66%, 44%);
+}
+footer{
+    background-color:hsl(206, 88%, 97%);
+}
+@media screen and (max-width: 600px) {
+   body{
+        font-size: 16px;
+   }
+    
+}
