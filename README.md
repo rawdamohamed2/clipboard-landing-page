@@ -25,7 +25,7 @@ Landing page for a productivity app designed to showcase its features, highlight
 ---
 
 ## 🚀 Live Demo
-👉 [View Demo](https://your-netlify-link.netlify.app)  
+👉 [View Demo](https://clipboard-landing1.netlify.app/)  
 
 ---
 
